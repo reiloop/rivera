@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Taxi Reimóndez</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Taxi Reimóndez</h1>
+        <p>24H/365Días</p>
+        <nav>
+            <ul>
+                <li>
+                    <a href="./index.html">Inicio</a>
+                </li>
+                <li>
+                    <a href="./contacto.html">Contacto</a>
+                </li>
+                <li>
+                    <a href="./about.html">Sobre nosotros</a>
+                </li>
+                <li>
+                    <a href="./ubicacion.html">Ubicacion</a>
+                </li>
+                <li>
+                    <button name="llamar">Llámanos</button>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Contacto</h2>
+        <fieldset>
+            <form id="formulario">
+                <label>Nombre y apellidos:
+                    <input
+                    id="nombre"
+                    name="nombre"
+                    type="text"
+                    placeholder="👤"/>
+                </label>
+        </fieldset>
+        <fieldset>
+            <label>Dirección:
+                <input
+                id="direccion"
+                name="direccion"
+                type="text"
+                placeholder="🏡"/>
+            </label>
+        </fieldset>
+        <fieldset>
+            <label for="telefono">Teléfono:</label>
+                <input 
+                type="text"
+                name="telefono"
+                id="telefono"
+                placeholder="☎">
+        </fieldset>
+        <fieldset>
+            <label for="comentario">Comentario:</label>
+            <textarea name="comentario" id="comentario" cols="30" rows="10" 
+            placeholder="Escibre aquí tu comentario"></textarea>
+        </fieldset>
+            <button type="submit" form="formulario">Enviar</button>
+        </form>
+        <aside>
+            <h2>Taxi Reimóndez</h2>
+            <address>
+                Avenida de Madrid 116, 27640 <br>
+                Becerreá (Lugo) <br>
+                <a href="maito:reimondezlopez@gmail.com"
+                >reimondezlopez@gmail.com</a> <br>
+                <a  href="tel:+34689541675">689541675</a>                
+            </address>
+        </aside>
+    </main>
+    <footer>© TAXI REIMÓNDEZ - 2021</footer>
+</body>
+</html>

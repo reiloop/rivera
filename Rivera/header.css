@@ -1,0 +1,22 @@
+header {
+    background: #2E8BC0;
+padding: 1rem;
+    box-shadow: 2px 2px 5px gray;
+    justify-content: center;
+}
+header h1, header p{
+    text-shadow: rgba(39, 33, 33, 0.452) 0 1px;
+    color: #eff4ff;
+    text-align: center;
+}
+
+header nav{
+text-align: center;
+}
+
+header li {
+    color: rgb(91, 174, 243);
+    list-style: none;
+    display: inline-block;
+    margin: .75rem;
+}
